@@ -2,15 +2,30 @@ body {
   text-align: center;
   background-color: #282c34;
 }
-.home{
+.home {
   padding: 0 10px;
 }
-.goods{
+.goods {
   display: flex;
   justify-content: space-around;
   gap: 20px;
   flex-wrap: wrap;
 }
-.shop-card{
+.shop-card {
   max-width: 300px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+}
+
+.card-active {
+  border-color: coral;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-btn{
+  margin-top: auto;
 }
