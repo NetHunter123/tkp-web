@@ -2,7 +2,7 @@ import React from "react";
 import ShopCard from "../components/ShopCard";
 
 const Home = () => {
-  const goods = [
+  const list = [
     {
       id: 1,
       title: "Lorem ipsum ",
@@ -45,7 +45,7 @@ const Home = () => {
     <>
       <div className={"home"}>
         <div className="goods">
-          {goods.map((item, i = 1) => {
+          {list.map((item, i = 1) => {
             return (
               <ShopCard
                 key={i++}
