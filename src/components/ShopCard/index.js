@@ -20,12 +20,12 @@ const ShopCard = ({ title, desc, img }) => {
           variant="outline-secondary"
           className={"card-btn"}
           onClick={(e) => {
-            // console.log("event: ", e.target.parentNode.parentNode.classes);
             e.target.parentNode.parentNode.classList.toggle("card-active");
           }}
         >
           Add
         </Button>
+
       </Card.Body>
     </Card>
   );
