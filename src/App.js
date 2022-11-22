@@ -1,8 +1,10 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Topbar from "./components/Topbar";
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Basket from "./pages/Basket";
 
 const Layout = () => {
   return (
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "/", element: <Home /> },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/basket",
+        element: <Basket />,
+      },
     ],
   },
   // { path: "/register", element: <Register /> },

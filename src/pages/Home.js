@@ -5,37 +5,37 @@ const Home = () => {
   const list = [
     {
       id: 1,
-      title: "Lorem ipsum ",
+      title: "Гори",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quibusdam.",
       img: "/img/foto1.jpg",
     },
     {
       id: 2,
-      title: "Lorem ipsum dolor sit ",
+      title: "Спуск річкою ",
       desc: "Lorem ipsum dolor sit amet, consectetur. Illum, quibusdam.",
       img: "/img/foto2.jpg",
     },
     {
       id: 3,
-      title: "Lorem ipsum dolor ",
+      title: "Гірське озеро",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum.",
       img: "/img/foto3.jpg",
     },
     {
       id: 4,
-      title: "Lorem dolor amet, adipisicing elit. Illum, quibusdam.",
+      title: "Озеро високо в горах",
       desc: "Lorem sit amet, consectetur adipisicing elit. Illum, quibusdam.",
       img: "/img/foto4.jpg",
     },
     {
       id: 5,
-      title: "Lorem ipsum dolor.",
+      title: "Туманна гірська річка.",
       desc: "Lorem ipsum dolor sit amet, Illum, quibusdam.",
       img: "/img/foto5.jpg",
     },
     {
       id: 6,
-      title: "consectetur adipisicing elit. Illum, quibusdam.",
+      title: "Мальовничі нічні зорі.",
       desc: "Lorem ipsum dolor, quibusdam.",
       img: "/img/foto6.jpg",
     },

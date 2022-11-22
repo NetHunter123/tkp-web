@@ -1,6 +1,7 @@
 body {
   text-align: center;
   background-color: #282c34;
+  color: white;
 }
 .home {
   padding: 0 10px;
@@ -16,10 +17,11 @@ body {
   border-width: 5px;
   border-style: solid;
   border-color: white;
+  color: #282c34;
 }
 
 .card-active {
-  border-color: coral;
+  border-color: #6E6EBC;
 }
 .card-body{
   display: flex;
